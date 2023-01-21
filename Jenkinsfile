@@ -9,23 +9,7 @@ pipeline {
             
             }
         }
-<<<<<<< HEAD
         
     }
 }
  
-=======
-        stage("test"){
-            steps{
-                echo "test"
-            }
-        }
-        stage("deploy"){
-            steps{
-                echo "deploy"
-            }
-        }
-    }
-}
- 
->>>>>>> 19b8a4f52a0934cd7fbc99cb53c1940ab4b3b6c4
